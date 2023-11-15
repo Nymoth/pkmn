@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#app {
+  background: #ccc;
+  display: grid;
+  width: 90vh;
+  /* aspect-ratio: 9 / 19.5; */
+  aspect-ratio: 4 / 3;
+}
+
+.screen {
+  position: relative;
+  background: #000;
+  aspect-ratio: 4 / 3;
+}
+
+/* .controls {
+
+} */
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
